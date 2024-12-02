@@ -1,0 +1,52 @@
+@media screen and (min-width: 1440px) {
+  .jobLocationsDesktop {
+    display: flex;
+    position: relative;
+    bottom: 790px;
+    padding-left: 150px;
+    gap: 50px;
+  }
+
+  .jobsIndiaDesktop ul,
+  .jobsInternationalDesktop ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+    gap: 12px;
+  }
+
+  .jobsIndiaDesktop ul li,
+  .jobsInternationalDesktop ul li {
+    list-style: none;
+    color: black;
+    border-radius: 5px;
+    font: 15px Roboto, sans-serif;
+    position: relative;
+    right: 20px;
+  }
+
+  .jobsIndiaDesktop > .jobsIndiaTitle,
+  .jobsInternationalDesktop > .jobsInternationalTitle {
+    text-align: center;
+  }
+
+  .jobsIndiaDesktop,
+  .jobsInternationalDesktop {
+    background: #b8f2f238;
+  }
+
+  .jobsInternationalDesktop {
+    position: relative;
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jobLocationsDesktop {
+    display: none;
+  }
+}

@@ -1,0 +1,149 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo-right {
+    margin-right: 1rem;
+  }
+
+  .logo-left img {
+    width: 190px;
+    height: 76.9px;
+    margin: 0;
+  }
+
+  .logo-right img {
+    width: 50px;
+    height: 50px;
+  }
+
+  @keyframes text-animation {
+    0% {
+      background-position: 320%;
+    }
+
+    100% {
+      background-position: 0%;
+    }
+  }
+
+  .textAnimation {
+    font-weight: 600;
+    color: #001b85;
+    text-align: center;
+    background: linear-gradient(
+      90deg,
+      #001b85 0,
+      #27dadb 25%,
+      #0d00ff 50%,
+      #27dadb 75%,
+      #001b85 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% 100%;
+    animation: text-animation 2s linear infinite;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .logo-right {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .logo-left {
+    margin-right: auto; /* Keep the logo on the left */
+  }
+
+  .nav-title span {
+    color: #0030f9;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+  }
+
+  .nav-title{
+    color: #343434;
+    font-weight: normal;
+  }
+
+  .desktop-only {
+    margin-left: auto; /* Move the elements to the right */
+  }
+
+  .desktop-only ul {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .desktop-only ul li {
+    margin-left: 1rem;
+    list-style: none;
+    font-weight: 700;
+  }
+
+  .desktop-only ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-link.button {
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: #343434;
+  }
+
+  .nav-link.button:hover {
+    background: #ffd52c;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    color: #343434;
+  }
+
+  .nav-link.employer-login-button {
+    background: #ffd52c;
+    margin-right: 8px;
+    margin-left: 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+    color: #343434;
+  }
+
+  .nav-link.employer-login-button:hover {
+    background: #001b85;
+    margin-right: 8px;
+    margin-left: 10px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+    color: #fff;
+  }
+}

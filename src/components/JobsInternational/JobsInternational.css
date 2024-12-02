@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  .jobsInternationalTitle {
+    text-align: center;
+  }
+  .jobsInternational {
+    background: #b8f2f238;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .jobsInternational ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+    gap: 12px;
+  }
+
+  .jobsInternational ul li {
+    list-style: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font: 15px Roboto, sans-serif;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .jobsInternational {
+    display: none;
+  }
+}

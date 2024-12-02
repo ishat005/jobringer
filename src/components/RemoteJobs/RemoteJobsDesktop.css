@@ -1,0 +1,47 @@
+@media screen and (min-width: 1440px) {
+  .job-postings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 128px;
+  }
+
+  .job-posting {
+    width: -45%;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    width: 310px;
+    height: 45%;
+    transition: transform 0.5s ease-in-out;
+    border: 1px solid black;
+  }
+
+  div.remoteJobsContainerDesktop {
+    position: relative;
+    bottom: 906px;
+  }
+
+  .featuredJobs {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #384a9a;
+  }
+
+  .float-right {
+    float: right;
+    font-size: 17px;
+  }
+
+  .job-role {
+    text-align: left;
+    position: relative;
+    top: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .remoteJobsContainerDesktop {
+    display: none;
+  }
+}

@@ -1,0 +1,265 @@
+@media only screen and (max-width: 768px) {
+  .jobSearch {
+    margin-left: 10px;
+  }
+
+  .jobSearch h1 {
+    color: #051a78;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-top: 0px;
+  }
+
+  .jobSearch h2 {
+    color: #051a78;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 9px;
+    padding-top: 0px;
+  }
+
+  .jobDashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #7ad5d5;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .jobDashboard input[type="text"] {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .searchJob {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffd52c;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+
+  .userActions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 10px;
+    flex-basis: 100%;
+    justify-content: flex-end;
+  }
+
+  .userActions button {
+    margin-left: 10px;
+  }
+
+  .viewJobs {
+    padding: 9px 20px;
+    background: #fff;
+    margin: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font: 13px Roboto, sans-serif;
+    font-weight: 500;
+  }
+
+  .register {
+    padding: 9px 20px;
+    background: #ffd52c;
+    margin: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font: 13px Roboto, sans-serif;
+    font-weight: 500;
+  }
+
+  .quickSearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #7ad5d5;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .quickSearch h3 {
+    color: #001360;
+    margin: 0;
+    padding: 15px 0px 0px 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 0 auto;
+  }
+
+  .quickSearch ul li,
+  .quickSearch ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .quickSearch ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #7ad5d5;
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+    gap: 12px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .jobSearch > h1,
+  .jobSearch > h2 {
+    text-align: center;
+    color: #051a78;
+  }
+
+  .jobSearch > h2 {
+    font-weight: 600;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .jobSearch > .jobDashboard,
+  .jobSearch > .quickSearch {
+    display: none;
+  }
+
+  .jobSearch > .desktop-only {
+    display: flex;
+  }
+
+  .jobSearch {
+    margin-left: 30px;
+  }
+
+  .desktop-only > .jobDashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #7ad5d5;
+    padding: 2% 2%;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    bottom: 15px;
+    max-width: 800px !important;
+  }
+
+  .desktop-only > .quickSearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #7ad5d5;
+    padding: 0.5% 1%;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .desktop-only > .quickSearch ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .desktop-only > .quickSearch ul li {
+    white-space: nowrap;
+    position: relative;
+    right: 60px;
+  }
+
+  .desktop-only > .quickSearch ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .desktop-only > .quickSearch h3 {
+    color: #001360;
+    font-weight: 700;
+    margin: 0 auto;
+  }
+
+  .desktop-only > .jobDashboard input[type="text"] {
+    flex: 1;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .desktop-only > .jobDashboard .searchJob {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffd52c;
+    color: black;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+
+  .desktop-only > .jobDashboard .userActions {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 10px;
+    flex-basis: 100%;
+    justify-content: flex-end;
+  }
+
+  .desktop-only > .jobDashboard .userActions button {
+    margin-left: 10px;
+  }
+
+  .desktop-only > .jobDashboard .viewJobs {
+    padding: 9px 20px;
+    background: #fff;
+    margin: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font: 13px Roboto, sans-serif;
+    font-weight: 500;
+  }
+
+  .desktop-only > .jobDashboard .register {
+    padding: 9px 20px;
+    background: #ffd52c;
+    margin: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font: 13px Roboto, sans-serif;
+    font-weight: 500;
+  }
+}

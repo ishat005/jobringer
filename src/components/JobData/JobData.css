@@ -1,0 +1,67 @@
+@media screen and (max-width: 768px) {
+  .jobDataContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: #343434 solid 2px;
+    border-bottom: #343434 solid 2px;
+    position: relative;
+    bottom: 18px;
+  }
+
+  .jobDataItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-top: 17px;
+    margin-bottom: 25px;
+  }
+
+  .jobDataTitle {
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .jobDataNumber {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0023b5;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .jobDataContainer {
+    display: flex;
+    justify-content: center;
+    border-top: #0023b5 solid 3px;
+    border-bottom: #0023b5 solid 3px;
+    position: relative;
+    bottom: 790px;
+    gap: 100px;
+    margin: 0 auto;
+  }
+
+  .jobDataItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10%;
+    margin-top: 17px;
+    margin-bottom: 25px;
+  }
+
+  .jobDataTitle {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .jobDataNumber {
+    font-weight: 600;
+    color: #0023b5;
+    font-size: 55px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}

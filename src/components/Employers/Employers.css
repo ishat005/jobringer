@@ -1,0 +1,122 @@
+@media only screen and (max-width: 768px) {
+  .employerDashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(125deg, #27dadb 0, #001b85 100%);
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+
+    h1 {
+      color: #fff;
+      margin: 0;
+      padding: 15px 0px 0px 20px;
+      font-family: Roboto;
+      font-weight: 500;
+      line-height: 35px;
+    }
+  }
+
+  .employerActions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .employerActions button {
+    padding: 10px 20px;
+  }
+
+  .register {
+    padding: 9px 20px;
+    background: #ffd52c;
+    margin: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font: 13px Roboto, sans-serif;
+  }
+
+  .postJob {
+    padding: 9px 20px;
+    background: #fff;
+    margin: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font: 13px Roboto, sans-serif;
+  }
+
+  .salesEnquiry {
+    padding: 0px 5px 5px 20px;
+    color: #fff;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .employerDashboard > h1,
+  .employerActions,
+  .employerDashboard > .salesEnquiry {
+    display: none; /* Hide the h1 element by default */
+  }
+
+  .desktop-only h1:first-child {
+    color: white;
+  }
+
+  .desktop-only {
+    display: flex;
+    gap: 24px;
+  }
+
+  .employerDashboard {
+    background: linear-gradient(125deg, #27dadb 0, #001b85 100%);
+    padding: 0.5% 2%;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+  .welcomeOffer {
+    background: linear-gradient(
+      90deg,
+      #ffd52c 0,
+      #ffea95 25%,
+      #fff 50%,
+      #ffea95 75%,
+      #ffd52c 100%
+    );
+    background-clip: text; /*apply the gradient to the text itself */
+    color: transparent;
+  }
+
+  .desktop-only .salesEnquiry {
+    color: white;
+    padding: 40px 5px 5px 20px;
+  }
+
+  .desktop-only > .register {
+    background: #ffd52c;
+    width: 220px;
+    height: 70px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font: 20px Roboto, sans-serif;
+    font-weight: 600;
+  }
+
+  .desktop-only > .postJob {
+    background: #fff;
+    width: 220px;
+    height: 70px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font: 20px Roboto, sans-serif;
+    font-weight: 600;
+  }
+}

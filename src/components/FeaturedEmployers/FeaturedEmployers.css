@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px) {
+  .featuredEmployersTitle {
+    text-align: center;
+    position: relative;
+    bottom: 225px;
+  }
+
+  .featuredEmployersSpan {
+    color: #384a9a;
+  }
+
+  .slider {
+    position: relative;
+    bottom: 180px;
+  }
+
+  .image-container {
+    border: 1px solid #ccc;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    border-radius: 1vw;
+    margin: 0 auto;
+  }
+
+  .image-container img {
+    width: 30vw;
+    height: auto;
+    margin: 1vw;
+    border: 1px solid #ddd;
+  }
+
+  .appStores {
+    display: block;
+    position: relative;
+    bottom: 70px;
+  }
+
+  .appStores img {
+    display: block;
+    margin: 10px auto;
+    height: 90px;
+  }
+
+  .applyJobs {
+    text-align: center;
+    font-size: 26px;
+    line-height: normal;
+    font-weight: 400;
+    position: relative;
+    bottom: 135px;
+  }
+
+  .jobringerMobileApp {
+    text-align: center;
+    position: relative;
+    bottom: 105px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .mobileApp {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    line-height: 55px;
+    color: #343434;
+  }
+
+  .mobileApp span {
+    color: #384a9a;
+  }
+
+  .mobileAppDesktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .featuredEmployersContainer {
+    position: relative;
+    bottom: 860px;
+  }
+
+  .featuredEmployersTitle {
+    text-align: center;
+  }
+
+  .featuredEmployersSpan {
+    color: #384a9a;
+  }
+
+  .applyJobs {
+    padding-left: 150px;
+    position: relative;
+    top: 100px;
+    font-weight: 600;
+  }
+
+  .jobringerMobileApp {
+    padding-left: 150px;
+    position: relative;
+    top: 90px;
+    color: #384a9a;
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  .appStores {
+    position: relative;
+    top: 90px;
+    padding-left: 150px;
+  }
+
+  .appStores img {
+    margin-right: 10px;
+    height: 70px;
+  }
+
+  .mobileApp {
+    display: none;
+  }
+
+  .mobileAppDesktop {
+    padding-left: 150px;
+    position: relative;
+    top: 90px;
+    font-weight: 700;
+    font-size: 46px;
+
+  }
+
+  .mobileAppDesktop span {
+    color: #384a9a;
+  }
+}

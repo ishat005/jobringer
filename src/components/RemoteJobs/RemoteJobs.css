@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+  .slider-container-remote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 540px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    bottom: 176px;
+  }
+
+  .card {
+    align-items: center;
+    text-align: center;
+    width: 75%;
+    height: 75%;
+    transition: transform 0.5s ease-in-out;
+    border: 1px solid black;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
+  }
+
+  .left-arrow {
+    left: 10px;
+  }
+
+  .right-arrow {
+    right: 10px;
+  }
+
+  .float-right {
+    float: right;
+    position: absolute;
+    top: 49px;
+    right: 73px;
+    font-size: 22px;
+  }
+
+  .job-posting {
+    text-align: left;
+    position: relative;
+    top: 36px;
+  }
+
+  .remoteJobsTitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #384a9a;
+    position: relative;
+    bottom: 115px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .remoteJobsContainer {
+    visibility: hidden;
+  }
+}
